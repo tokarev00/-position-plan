@@ -46,15 +46,6 @@ h1{
     animation-name: t;
     animation-duration: 5s;
 }
-@keyframes t{
-    0%{
-        padding-left: 150px;
-        
-    }
-    100%{
-        padding-left: 0;
-    }
-} 
 .item-position__text{
     padding: 15px 15px;
     margin-left: 45px;
@@ -80,3 +71,12 @@ h1{
     bottom: -7px;
     transform: rotate(-45deg);
 }
+    @keyframes t{
+        0%{
+            padding-left: 150px;
+            
+        }
+        100%{
+            padding-left: 0;
+        }
+    } 
